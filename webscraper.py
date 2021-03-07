@@ -1,4 +1,4 @@
-from bs4 import BeautifulSoup
+2from bs4 import BeautifulSoup
 from urllib.request import urlopen
 import pandas as pd
 import requests
