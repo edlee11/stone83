@@ -41,4 +41,6 @@ mc = mpf.make_marketcolors(up='r', down='b', inherit = True)
 s = mpf.make_mpf_style(marketcolors=mc)
 mpf.plot(df, **kwargs, style=s)
 
+print("test")
+
 #mpf.plot(df, title="Celltrion", type='ohlc')
