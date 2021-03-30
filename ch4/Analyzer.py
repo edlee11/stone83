@@ -44,7 +44,7 @@ class MarketDB:
             sql = f"SELECT * FROM daily_price WHERE code = '{code}'"\
                 f" and date >= '{start_date}' and date <= '{end_date}'"
             df = pd.read_sql(sql, self.conn)
-            #df.index = df['date']
+            df.index = df['date']
             #df.drop()
             return df 
 
