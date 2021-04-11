@@ -176,4 +176,4 @@ class DBupdater:
 if __name__ == '__main__':
     dbu = DBupdater()
     dbu.update_comp_info()
-    dbu.update_daily_price(75)
+    dbu.update_daily_price(1)
